@@ -1,0 +1,62 @@
+:root {
+    --main-color: #444543c4;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 90%;
+    font-size: 16px;
+    margin: auto;
+    background-color: #f1f4f5;
+}
+h4 {
+    font-size: large;
+    font-family: inherit;
+}
+p {
+    color: var(--main-color);
+    /* font-size: 15px; */
+}
+img {
+    max-width: 330px;
+}
+/* container1 */
+.container1 {
+    margin: 5px auto;
+    text-align: center;
+}
+.container1-chill {
+    margin: 20px;
+}
+/* container2 */
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 36px auto;
+}
+.container2-child {
+    width: 25%;
+}
+.child-one {
+    flex: 1;
+}
+.child-two {
+    flex: 1;
+}
+.child-three {
+    flex: 1;
+}
+.container2-child {
+    background-color: white;
+    max-width: 330px;
+    font-size: 15px;
+}
+.container2-child-design {
+    margin: 10px;
+}
+
